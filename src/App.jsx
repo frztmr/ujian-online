@@ -12,8 +12,9 @@ import { Route, Routes } from "react-router-dom";
 
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
+import HomePage from './pages/HomePage';
 
-import Headerbar from './component/headerbar';
+import Headerbar from './component/HeaderBar';
  
 function App() { 
 
@@ -22,6 +23,7 @@ function App() {
     <Headerbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </>

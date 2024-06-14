@@ -7,14 +7,17 @@
 } */
 
 .glass-effect {
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* Blur the background behind the card */
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    /* Blur the background behind the card */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .login-background {
-    background-image: url('/login-background.jpg'); /* Replace with your image path */
+    background-image: url('/login-background.jpg');
+    /* Replace with your image path */
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -23,4 +26,43 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+}
+
+/* Toggle button styles */
+.toggle-visibility-btn {
+    position: absolute;
+    top: 72%;
+    right: 5px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-outline-light {
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+}
+
+/* DesktopSideMenu */
+.sidebar {
+    width: 250px;
+}
+
+/* DesktopSideMenu */
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/* DesktopSideMenu */
+.nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
 }
