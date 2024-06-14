@@ -4,10 +4,10 @@ import React from "react";
 const LoginPage = () => {
     return (
 
-        <div className="d-flex">
-            <div className="d-flex justify-content-evenly p-5 min-vh-100">
-                <div className="d-flex align-items-center">
-                    <div className="card p-4" style={{ width: '20rem' }}>
+        <div className=" ketengah login-background">
+            <div className="d-flex justify-content-center p-5 min-vh-100">
+                <div className="d-flex justify-content-center  align-items-center ">
+                    <div className="card p-4 glass-effect " style={{ width: '20rem' }}>
                         <h3 className="card-title text-center">Masuk</h3>
                         <form>
                             <div className="mb-3">
@@ -18,7 +18,7 @@ const LoginPage = () => {
                                 <label htmlFor="password" className="form-label">Password</label>
                                 <input type="password" className="form-control" id="password" required />
                             </div>
-                            <button type="submit" className="btn btn-primary w-100">Login</button>
+                            <button type="submit" className="btn btn-primary w-100">Masuk!</button>
                         </form>
                     </div>
 
