@@ -6,7 +6,7 @@ import { RiDashboard2Fill } from 'react-icons/ri';
 const DesktopSideMenu = () => {
 
     return (
-        <div className="sidebar d-flex flex-column bg-light vh-100 p-3">
+        <div className="sidebar d-flex flex-column bg-light vh-100 p-3 d-none d-md-block">
             <ul className="nav flex-column">
                 <li className="nav-item mb-3">
                     <a href="#" className="nav-link d-flex align-items-center text-dark">
