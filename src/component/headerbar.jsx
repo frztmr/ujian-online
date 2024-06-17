@@ -1,13 +1,12 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Headerbar = () => {
-
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-primary bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand text-white fw-bold" onClick={() => navigate('/')}>TemanBelajarKu</a>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -31,7 +30,7 @@ const Headerbar = () => {
                 </div>
             </div>
         </nav>
-    )
+    );
 }
 
-export default Headerbar
+export default Headerbar;

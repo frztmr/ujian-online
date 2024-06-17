@@ -20,7 +20,7 @@ const LoginPage = () => {
     }
     return (
 
-        <div className="ketengah login-background ">
+        <div className="ketengah login-background mt-5">
             <div className="d-flex justify-content-center p-5 min-vh-100">
                 <div className="d-flex justify-content-center align-items-center">
                     <div className="card p-4 glass-effect" style={{ width: '20rem' }}>

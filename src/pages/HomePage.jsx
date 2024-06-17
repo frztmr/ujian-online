@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className="d-flex">
             <DesktopSideMenu />
-            <div className="content flex-grow-1 p-3">
+            <div className="content flex-grow-1 p-3 mt-5">
                 <h1>HOMEPAGE</h1>
                 <p>This is the content of the homepage.</p>
             </div>
