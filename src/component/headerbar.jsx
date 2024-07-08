@@ -8,7 +8,7 @@ const Headerbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand text-white fw-bold" onClick={() => navigate('/')}>TemanBelajarKu</a>
+                <a className="navbar-brand text-white fw-bold btn p-0 m-0" onClick={() => navigate('/')}>TemanBelajarKu</a>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
